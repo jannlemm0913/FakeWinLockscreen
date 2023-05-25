@@ -3,6 +3,7 @@ A quick and dirty implementation of a fake Windows 10 lockscreen as a web page.
 This is only intended to be used in awareness trainings or red teaming operations.
 
 When the user left-clicks, the login mask is displayed. Right-clicking hides the login mask again and returns to the idle screen with the clock.  
+In this version, if the user enters a password, the browser is redirected to https://avantguard.io/en/homepage. The password is not included in the request.  
 Since this was only a small hacky project made for fun, only English is implemented. If you would like to contribute additional languages, please do so!  
 
 ![grafik](https://github.com/jannlemm0913/FakeWinLockscreen/assets/37586835/a29e4fe2-51bb-4955-8c33-b038c9c20e16)
